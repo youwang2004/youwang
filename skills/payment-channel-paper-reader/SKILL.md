@@ -2,7 +2,7 @@
 name: payment-channel-paper-reader
 description: 精读区块链支付通道、状态通道及支付通道网络论文，重建参与方交互、算法及其改造、交易生命周期和严格的时序依赖，并提供原文依据。适用于全文精读、局部流程追踪、基线对比及基于阅读反馈优化本技能。
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # 支付通道论文精读

@@ -4,7 +4,7 @@
 
 ## 支付通道论文精读
 
-技能名称：`payment-channel-paper-reader`；当前版本：`1.0.0`。
+技能名称：`payment-channel-paper-reader`；当前版本以 [SKILL.md](skills/payment-channel-paper-reader/SKILL.md) 的 `metadata.version` 为准。
 
 [查看完整技能](skills/payment-channel-paper-reader/SKILL.md)
 
@@ -46,7 +46,21 @@ https://github.com/youwang2004/youwang/tree/main/skills/payment-channel-paper-re
 
 ## 优化与更新
 
-可直接反馈：“优化这个 skill，以后每次都……”。例如要求进一步细分签名收集、压缩背景，或增加逐步手算例子。模型应依据技能内的优化规则合并反馈、更新版本，并回写本仓库同一目录；只有实际完成的保存和推送才算更新。
+只想调整本次讲解，可以继续追问，不必修改 skill。希望以后所有论文都遵守时，在任意对话发送：
+
+```text
+更新论文精读 skill：请把本次对话中已经明确、需要长期保留的阅读要求
+合并到 https://github.com/youwang2004/youwang 的最新版
+skills/payment-channel-paper-reader 中，并更新当前设备。
+先读取仓库最新内容，保留其他对话已加入的规则，避免用旧版本覆盖。
+完成后告诉我新增了哪些规则、新版本，以及是否已成功同步到 GitHub。
+```
+
+也可在该指令后指定一条新要求，或在一篇论文读完后汇总本次的多条改进。模型应依据技能内的优化规则归纳、去重、处理冲突、更新版本并回写本仓库；不能仅回复“记住了”。
+
+每次更新都以仓库最新版本为基础；提交前若发现别的对话已经更新，重新读取并合并，再尝试非强制提交。版本历史保留在仓库提交记录中。只有实际保存和推送成功的要求，才进入各设备可获取的统一版本；没有写入的聊天反馈不自动汇总。
+
+新对话想先用上累计改进，可发送“先同步论文精读 skill 的仓库最新版，再用它读这篇论文”。正在进行的其他对话也需重新同步才会使用新规则。
 
 另一台电脑获取最新版本时发送：
 
