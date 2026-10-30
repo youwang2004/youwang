@@ -1,0 +1,4 @@
+interface:
+  display_name: "支付通道论文精读"
+  short_description: "精读区块链支付通道论文，重建交互时序、交易状态与算法改造，逐项定位原文证据"
+  default_prompt: "请用 $payment-channel-paper-reader 精读这篇论文，重点重建具体交互、算法改造和有证据支撑的完整交易时序。"
