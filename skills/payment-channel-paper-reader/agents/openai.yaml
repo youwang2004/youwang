@@ -1,4 +1,4 @@
 interface:
   display_name: "支付通道论文精读"
   short_description: "精读区块链支付通道论文，重建交互时序、交易状态与算法改造，逐项定位原文证据"
-  default_prompt: "请用 $payment-channel-paper-reader 精读论文：先讲整体概念与章节、阶段地图，按原文算法顺序补足基础，再逐阶段把固定参与方列的交互图、完整消息参数、算法、公式推导和状态变化连起来，最后总结证据、启发与局限并交付可读 Markdown。"
+  default_prompt: "请用 $payment-channel-paper-reader 精读论文：先讲整体概念与章节、阶段地图，按原文顺序补足基础，再依据通道类型、真实角色和支付情况选择时序或分支图，把实际算法、消息参数、推导和状态变化逐阶段连起来；图用 LaTeX 精确渲染后直接展示，最后总结证据、启发与局限并交付可读 Markdown。"
