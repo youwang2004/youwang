@@ -47,7 +47,7 @@
 
 生成图中的参与方、消息字段、函数调用与公式统一采用正式论文数学排版，保留原文上下标、帽号、横线、波浪号及字体含义，不用普通文本或 Unicode 字符拼凑。说明文字、数学字体、线宽与留白保持一致；详见 [图内数学排版](skills/payment-channel-paper-reader/references/protocol-flow-diagrams.md#图内数学排版)。
 
-多样性不意味着每次生成多套样图。按任务需要制作，复用正确且可读的图，定向修复有问题的部分；实际交付新图仍需渲染和目视核验。详见 [流程分类与成图](skills/payment-channel-paper-reader/references/protocol-flow-diagrams.md)。
+多样性不意味着每次生成多套样图。修订时，可将核实过的旧篇末直传参数图移入正文相应位置，再为篇末另排能展示计算与推导的分列图。实际交付新图仍需渲染和目视核验。详见 [流程分类与成图](skills/payment-channel-paper-reader/references/protocol-flow-diagrams.md)。
 
 ## 开始使用
 
