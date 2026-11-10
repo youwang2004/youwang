@@ -1,4 +1,4 @@
 interface:
   display_name: "支付通道论文精读"
-  short_description: "按原文章节完整精读支付通道，展开算法推导与真实交互，配论文式图文"
-  default_prompt: "请用 $payment-channel-paper-reader 按原文章节精读这篇论文，完整翻译摘要、性能与结论，讲清研究动机和逐项算法推导，附全文符号表及独立的完整交易流程图解，最后给出对论文的思考并交付 Markdown。"
+  short_description: "完整译读支付通道论文，独立讲解算法和推导，重建黑白协议图"
+  default_prompt: "请用 $payment-channel-paper-reader 按原文章节精读论文，分开呈现完整译文、整理和讲解，统一专业术语。用黑白算法框和章内参数传递图讲解推导与真实交互，把公式主导的完整交易流程分列图放在篇末，并交付 Markdown。"
