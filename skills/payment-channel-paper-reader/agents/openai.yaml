@@ -1,4 +1,4 @@
 interface:
   display_name: "支付通道论文精读"
-  short_description: "逐章译读并推导算法，以独立图文串起研究动机、方案比较和交易全程"
-  default_prompt: "请用 $payment-channel-paper-reader 精读这篇论文，交付《全文精读》和《前因后果》，在章内推导关键算法，在配套稿中沿本篇模型走完一个实例，然后更新本机已读索引。"
+  short_description: "按通道结构讲背景，按材料展开算法与交互，用两份图文讲清研究动机和交易全程"
+  default_prompt: "请用 $payment-channel-paper-reader 精读这篇论文，按通道结构解释背景，按本章材料选择推导和图法，在《全文精读》标出关键条件与本文改进，在《前因后果》走完一个实例，交付后更新本机已读索引。"
