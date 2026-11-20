@@ -27,7 +27,7 @@
 [打开按任务编排的详细提示词](skills/payment-channel-paper-reader/references/authoring-prompts.md)
 
 - `<论文>_全文精读.md` 保留完整摘要、引言、原章节译文、就地解释、章内公式、原图和局部算法。结论先译再总结，随后列跨论文思考与按类型整理的参考文献。两份精读文档都只在参考文献部分显示文献编号。
-- `<论文>_前因后果.md` 从链上扩展需求引到本文的通道类型、相关工作、问题与贡献，以图和少量文字走完同一个实例。链、结算资产和测试环境分别核对。详见[配套稿提示词](skills/payment-channel-paper-reader/references/causal-narrative.md)。
+- `<论文>_前因后果.md` 从链上扩展需求引到本文的通道类型、相关工作、问题与贡献，另设「完整交易交互」，用同一实例逐步展开准备、各笔付款、核验和结算。每个阶段在图中或紧邻图的文字里写明收发、参数和状态或资金结果。链、结算资产和测试环境分别核对。详见[配套稿提示词](skills/payment-channel-paper-reader/references/causal-narrative.md)。
 - 两份链接交付后，在本机技能的 `library/已读论文.md` 按论文增补总结、研究想法和一至两张代表原图。重读更新原条目。个人库只留本机，公开仓库提供[归档规范](skills/payment-channel-paper-reader/references/reading-library.md)。
 
 ## 讲解深度持续保留，呈现随论文调整
