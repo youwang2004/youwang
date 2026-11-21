@@ -1,4 +1,4 @@
 interface:
   display_name: "支付通道论文精读"
   short_description: "逐章译读、重排算法，用角色分栏阶段图逐步演算完整交易"
-  default_prompt: "请用 $payment-channel-paper-reader 精读这篇论文，在《全文精读》重排多步算法，在《前因后果》用黑白分栏图逐阶段演算同一笔交易，每图重列参与方。交付后更新本机已读索引。"
+  default_prompt: "请用 $payment-channel-paper-reader 精读这篇论文，重排章内算法，在《前因后果》逐方画算完整交易，在《全文精读》篇末按相同步号展开公式推演。交付后更新本机已读索引。"
