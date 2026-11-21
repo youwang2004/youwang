@@ -22,13 +22,13 @@
 
 正文保留原章节、算法名及节、式、图表的交叉引用。专业名词首次给英文原名和职责，译名不统一时保留英文。在独立的《前因后果》中用同一实例画出必要的准备、支付和结算；关键验证写清由谁执行、核对什么、通过后哪份状态生效，以及原文规定的失败去向。
 
-### 两份成稿和一份本机索引
+### 两份成稿和已读论文库
 
 [打开按任务编排的详细提示词](skills/payment-channel-paper-reader/references/authoring-prompts.md)
 
 - `<论文>_全文精读.md` 保留原章节译文、就地解释、章内算法框和原图。篇末列同一实例的完整交易算法推演，并集中整理参考文献、原编号和 CCF 索引。两份正文用作者、方案名或有核实的原始出处定位。
 - `<论文>_前因后果.md` 沿同一场景讲需求、旧办法的断点、设计贡献和条件，另设「完整交易交互」逐阶段演算。读者从本文件链接到《全文精读》查篇末书目。详见[配套稿提示词](skills/payment-channel-paper-reader/references/causal-narrative.md)。
-- 两份链接交付后，在本机技能的 `library/已读论文.md` 按论文增补总结、研究想法和一至两张代表原图。重读更新原条目。个人库只留本机，公开仓库提供[归档规范](skills/payment-channel-paper-reader/references/reading-library.md)。
+- 交付两份成稿后，提醒读者审核成稿、候选代表原图和交互图。确认后按论文整理到本机 `library/`，通过 `library/已读论文.md` 打开原文入口、两份稿和各阶段图。复读修改也先审核。已配置私有仓库时，同步获准版本，其他设备可用有权限的账号查看。 [归档规范](skills/payment-channel-paper-reader/references/reading-library.md)
 
 ## 讲解深度持续保留，呈现随论文调整
 
@@ -53,7 +53,7 @@
 提供论文 PDF、正文或链接后发送：
 
 ~~~text
-请用 $payment-channel-paper-reader 精读这篇论文，按章节完整译读。请在《前因后果》画完整交易，在《全文精读》篇末沿同一步骤写算法推演，交付两份 Markdown 后更新本机已读论文。
+请用 $payment-channel-paper-reader 精读这篇论文，按章节完整译读。请在《前因后果》画完整交易，在《全文精读》篇末沿同一步骤写算法推演，交付两份 Markdown 后，提醒我审核成稿和准备入库的图，确认后再归档。
 ~~~
 
 只想看局部时，可以直接限定范围。需要按原图带着例子讲，可以这样说。
@@ -96,5 +96,7 @@ README 的说明或调用示例受影响时一并更新。请报告改动、版�
 ~~~
 
 更新以仓库最新版本为基础，合并有效本地差异。发布时检查 README，涉及使用说明或调用方式时一并更新。提交时避免覆盖其他对话的新改动，完成后分别核实 GitHub 与本机。各电脑仍需实际同步，正在进行的其他对话需重新加载新版，登录同一账号不代表自动安装或同步。
+
+技能和个人库分别同步。公共仓库维护技能规则，个人论文材料通过已配置的私有仓库同步。更新技能时保留本机 `library/`。
 
 更多维护细节见 [跨设备使用](skills/payment-channel-paper-reader/references/distribution.md) 与 [反馈与优化](skills/payment-channel-paper-reader/references/evolution.md)。
